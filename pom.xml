@@ -193,7 +193,7 @@
 			</plugin>
 
         </plugins>
-		<finalName>addressbook</finalName>
+		<finalName>projcert</finalName>
     </build>
 	
 	  
@@ -369,7 +369,7 @@
                         <dependencies>
                             <dependency>
                                 <groupId>com.edurekademo.tutorial</groupId>
-                                <artifactId>addressbook</artifactId>
+                                <artifactId>projcert</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
                         </dependencies>
@@ -408,7 +408,7 @@
                         <dependencies>
                             <dependency>
                                 <groupId>com.edurekademo.tutorial</groupId>
-                                <artifactId>addressbook</artifactId>
+                                <artifactId>projcert</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
                         </dependencies>
@@ -450,7 +450,7 @@
                         <artifactId>maven-checkstyle-plugin</artifactId>
                         <version>2.9.1</version>
                         <configuration>
-                            <configLocation>addressbook-build/checkstyle.xml</configLocation>
+                            <configLocation>projcert-build/checkstyle.xml</configLocation>
                         </configuration>
                     </plugin>
                     <plugin>
